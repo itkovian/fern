@@ -29,7 +29,7 @@ syslog4 = { version = "4", package = "syslog", optional = true }
 syslog6 = { version = "6", package = "syslog", optional = true }
 syslog7 = { version = "7", package = "syslog", optional = true }
 reopen1 = { version = "~1", package = "reopen", features = ["signals"], optional = true }
-reopen03 = { version = "^0.3", package = "reopen", optional = true }
+reopen03 = { version = "~1", package = "reopen", features = ["signals"], optional = true }
 libc = { version = "0.2.58", optional = true }
 
 [features]
